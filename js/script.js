@@ -167,7 +167,7 @@ function calc(fullBuy, setNumber) {
       if (money >= fullBuy) {
         arrayToPush.push("full");
       } else if (money-1300+lossAward >= fullBuy) {
-        arrayToPush.push("save");
+        arrayToPush.push("some");
       } else if (money+lossAward >= fullBuy) {
         arrayToPush.push("oner");
       } else if (money+lossAward < fullBuy) {
